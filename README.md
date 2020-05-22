@@ -24,10 +24,8 @@ module "acme_archive_builder" {
   name   = "acme"
   prefix = "emca"
 
-  docker_command = {
-      container: "python"
-      command: "pip -r requirements.txt"
-  }
+  command   = "pip -r requirements.txt"
+  container = "python"
 }
 ```
 
