@@ -1,7 +1,7 @@
 [![Follow on Twitter](https://img.shields.io/twitter/follow/opendevsecops.svg?logo=twitter)](https://twitter.com/opendevsecops)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/d3cdea1d93de4f9791f92aec8306e6f8)](https://www.codacy.com/app/OpenDevSecOps/terraform-null-archive-builder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=opendevsecops/terraform-null-archive-builder&amp;utm_campaign=Badge_Grade)
 
-# Null Archive Builder Terraform Module
+# Local Archive Builder Terraform Module
 
 A helper module to perform builds using docker.
 
