@@ -13,10 +13,10 @@ locals {
   command   = var.command
   container = var.container
 
-  local_command_count  = local.command != "" && local.container == "" ? 1 : 0
-  docker_command_count = local.command != "" && local.container == "" ? 0 : 1
+  local_command_count  = local.command == "" ? 0 : (local.container == "" ? 1 : 0)
+  docker_command_count = local.command == "" ? 0 : (local.container == "" ? 0 : 1)
 
-  with_command = local.local_command_count > 0 || local.docker_command_count > 0
+  with_command = local.local_command_count + local.docker_command_count > 0
 
   tags = var.tags
 }
