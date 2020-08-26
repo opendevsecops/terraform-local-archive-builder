@@ -3,7 +3,7 @@
 
 # Local Archive Builder Terraform Module
 
-A helper module to perform builds using docker.
+A helper module to perform builds using local shell and docker.
 
 This module is used extensively throughout other OpenDevSecOps projects as well as [secapps.com](secapps.com).
 
